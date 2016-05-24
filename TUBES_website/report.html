@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+ lang="en-GB" xml:lang="en-GB">
+ 
+<head>
+<title>Web Tech Report- 63721</title>
+<style> .indent {margin-left:40px; } </style>
+<style type="text/css"></style>
+<head>
+<body>
+<h1>Web Tech: Client-Side Report</h1>
+<h3>Name: Anu Anandarajah</h3>
+<h3>Candidate: 63721</h3>
+<p>The following Report will outline the processes undertaken in creating my website and detail features 
+which may otherwise be missed. Before I begin, I do apologise for not having paired up but I knew of only 
+two others who'd taken this unit from my course and I was not entirely keen on finding a computer science 
+student and burdening them with my lack of programming experience. The website I have attempted to create 
+is for The Engineering Societies (TUBES) Rugby Team, which is currently aiming to expand its online and 
+social media presence.</p>
+<p>I originally began without any frameworks, but quickly realised that I was wasting time re-writing
+code that others had already. I started using the skeleton framework due to its simplicity but ultimately ended up using Bootstrap
+in the final project. This change was originally due to wanting moving slides on my title page but I stuck
+with it due its popularity and huge list of resources and tutorials available online. Its responsive display
+also meant I could build the site to a size of my liking and have it re-size and re-align the elements 
+automatically.</p>
+<p>The bulk of my time was spent on the Home Page. The main feature here is the slideshow which took far longer
+than I'd like to admit to work entirely and (hopefully) on all the major browsers. I did this using the carousel
+function from 'Bootstrap', with modifications as desired. The main came difficulty with positioning and resizing, 
+and in my code you will find a mixture of absolute and relative positioning as well as the use of z-index and a 
+variety of padding and margins etc. I can assume it was probably not the cleanest or most efficient way to have 
+done it, but it works. The button styling used in this was found online in its entirety, however I modified the colours 
+and sizing to fit my needs. The slideshow should only begin after prompting it by pressing either the left or 
+right navigation buttons. In the middle of the display, above the slideshow is the TUBES logo that created from 
+scratch using both inkscape and then gimp. Both the svg and png files can be found in the main folder as well as 
+a screenshot or two from the creation process. This logo can be compared to the logo on slide 3 which I created on gimp using 
+a combination of the old bristol university logo and clip art images of a hammer and spanner. To see the actual logo, refer to 
+'logo_awful.png' in the main folder, like most of the sources available to me when creating this site, the image is 
+tiny and of low quality, hence why I made my own. The same also applied to the background image, it was originally a 
+900px by 600px jpeg, I tried sharpening the image on gimp after enlarging it but this only made it worse. I found 
+reducing the saturation and contrast whilst doing the opposite of what I originally intended, and instead of 
+enhancing the image adding a gaussian blur made it look like the image was intentionally out of focus- or so I hope, 
+it was the best I could do with the small collection of photos the team had access to.</p>
+<p>Ideally the homescreen acts as the main hub to the web page without getting too messy and clogged up, 
+right now it only links to two different pages on the site. I didn't see the point in adding huge amounts of 
+news with the same format. I did want to add a third page with a calendar but it proved too difficult to do in 
+the timespan, although I may still try to add this to the final site. In addition to that I also intend to 
+add a search bar once the server side has been completed, which would simplify navigation through pages.</p>
+<p>The navigation bar on top works fine for now without a search feature however due to having such few pages. In addition to the site 
+being able to resize itself, the navigation bar also adapts with a drop down menu when the display shrinks. All 
+the links should be valid, bar email and the fixture page being currently blank (where the calendar will go).</p>
+<p>For the actual content of the website, I have gone with using a jumbotron (feature of bootstrap) to contain 
+my news articles, this was in the hope that it would appear similar to a blog. The sizing and layout can easily be edited 
+through the styles.css file with the addition of new content. The Team Page however is finalised bar the content of 
+each players photos and details. Currently stock photos are acting as placeholders as I have no permission from 
+members of the team bar mine. The team page uses containers and the display will either show 2 or 3 members 
+per row depending on size of the display, though I have not tested on any mobile browsers I'm under the assumption 
+2 per row should be discernable.</p>
+<p></p>
+<p></p>
+</body>
+</html>
